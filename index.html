@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Campo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Reporte de Campo</h1>
+
+    <form>
+        <label for="nombreReportero">Nombre del Reportero:</label>
+        <input type="text" id="nombreReportero" name="nombreReportero"><br><br>
+
+        <label for="fechaReporte">Fecha del Reporte:</label>
+        <input type="date" id="fechaReporte" name="fechaReporte"><br><br>
+
+        <label for="ubicacion">Ubicación:</label>
+        <input type="text" id="ubicacion" name="ubicacion"><br><br>
+
+        <label for="tipoReporteSelect">Tipo de Reporte:</label>
+        <select id="tipoReporteSelect" name="tipoReporte"></select><br><br>
+
+        <label for="actoCondicionSelect">Acto / Condición Subestándar:</label>
+        <select id="actoCondicionSelect" name="actoCondicion"></select><br><br>
+
+        <label for="contenidoReporte">Contenido del Reporte:</label><br>
+        <textarea id="contenidoReporte" name="contenidoReporte" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Enviar Reporte</button>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

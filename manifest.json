@@ -1,0 +1,9 @@
+{
+  "name": "Reporte de Campo",
+  "short_name": "Reportes",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3367D6",
+  "description": "Formulario para reportes de campo offline."
+}
